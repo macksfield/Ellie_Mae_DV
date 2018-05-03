@@ -1,0 +1,80 @@
+#logo {
+  height: 190px;
+}
+
+.center-container {
+  position: relative;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerX {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.centerY {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#house {
+  background-image: url("../images/background/rooftop_blue_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0295cb;
+  color: white;
+  height:600px;
+}
+
+.house-left {
+  float:left;
+  width: 450px;
+  margin: 4% 8%;
+  line-height: 2.5em;
+}
+
+.house-right {
+  float:right;
+}
+
+.house-feature {
+  width:320px;
+  height:150px;
+}
+
+.house-feature:nth-child(1) {
+    background: #f59131;
+}
+
+.house-feature:nth-child(2) {
+    background: #39a154;
+}
+
+.house-feature:nth-child(3) {
+    background: #005081;
+}
+
+#mortgage {
+  height:520px;
+  text-align:center
+}
+
+#encompass {
+  background: linear-gradient(to left, #b2b3b7, #e7e8ed);
+}
+
+#encompass #laptop {
+  background-image: url("../images/background/encompass-ng-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height:450px;
+  width:100%;
+}
