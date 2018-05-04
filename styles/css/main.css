@@ -1,0 +1,191 @@
+html {
+     margin: 0 auto;
+     font-family: 'Open Sans', sans-serif;
+}
+ section#logo {
+     height: 190px;
+}
+ .center-container {
+     position: relative;
+}
+ .center {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+ .centerX {
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+}
+ .centerY {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+}
+ button {
+     color: white;
+     margin: 18px 0;
+     padding: 12px 30px;
+     font-weight: 900;
+}
+ .orange {
+     background-color: #f59131;
+}
+ .blue {
+     background-color: #0091b6;
+}
+ .content-container {
+     position:relative;
+     max-width: 1440px;
+     margin-right: auto;
+     margin-left: auto;
+     width: 100%;
+     padding: 20px;
+}
+ section#house {
+     background-image: url(../../images/background/rooftop_blue_background.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-color: #0295cb;
+     color: white;
+     height:600px;
+}
+ .house-left {
+     width: 33%;
+     text-align: top;
+     float: left;
+}
+ .house-left span {
+     font-size: 48px;
+}
+ .house-left div {
+     font-size: 16px;
+     margin-top: 20px;
+     line-height: 35px;
+}
+ .house-right {
+     margin-left: 33%;
+     display: inline-block;
+     margin-right: 2%;
+     float: right;
+}
+ .house-feature {
+     width:320px;
+     height:150px;
+     position: relative;
+     margin: 20px 0;
+}
+ .house-feature aside {
+     font-size: 22px;
+     line-height: 1.1;
+     margin-bottom: 10px;
+}
+ .house-feature div {
+     width:50%;
+     font-size:14px;
+     padding: 15px 0 0px 15px;
+}
+ .house-feature span {
+}
+ .house-feature img {
+     position: absolute;
+     top: 0;
+     right: 0;
+     transform: translate(-50%, 50%);
+}
+ .house-feature img.x18 {
+     margin-top: 20px;
+}
+ .house-feature:nth-child(1) {
+     background: #f59131;
+}
+ .house-feature:nth-child(2) {
+     background: #39a154;
+}
+ .house-feature:nth-child(3) {
+     background: #005081;
+}
+ section#mortgage {
+     height:520px;
+     text-align:center;
+}
+ section#mortgage h3 {
+     font-size:42px;
+     color: #39a154;
+}
+ section#mortgage div {
+     margin-bottom: 40px;
+     line-height: 34px;
+}
+ section#encompass {
+     height:450px;
+     background-image: url(../../images/background/encompass-ng-background.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     color: white;
+     line-height: 35px;
+}
+ #encompass #laptop-background {
+     width:100%;
+}
+ #encompass #encompass-right {
+     width: 50%;
+     margin-left: 50%;
+}
+ #laptop-screen {
+     top:0;
+     left:0;
+     position:absolute;
+}
+ section#footer {
+     height: 100px;
+     color:white;
+     background-color: #005181;
+     text-align: center;
+}
+ #footer h3 {
+     display: inline-block;
+     margin-right: 15px;
+}
+ @media only screen and (max-width: 1020px) {
+
+     #logo img {
+         height: 20%;
+    }
+     .house-left {
+         width:90%;
+         margin:20px auto;
+    }
+     .house-left span {
+         font-size: 42px;
+    }
+     .house-right {
+         position: absolute;
+         top: 600px;
+         margin: 0;
+         width: 100%;
+         left: 0;
+    }
+     .house-feature{
+         width: 88%;
+         margin-left: 3%;
+    }
+     section#mortgage {
+         margin: 600px 20px 100px 20px;
+         height: 610px;
+    }
+     section#encompass {
+         background-position-x: 60%;
+         height: 550px;
+    }
+     #encompass #encompass-right {
+         width:80%;
+         margin: 10px 0 0 10%;
+    }
+     section#footer {
+         height: 150px;
+    }
+}
